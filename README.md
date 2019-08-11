@@ -6,15 +6,16 @@
 3. Run "npm install" on the command line once in the folder.
 4. Run "ng serve" to start the localhost.
 5. In your web browser go to "localhost:4200".
-6. Refresh the localhost once it is loaded. (To prevent any minor sync issues)
-7. "hellarbrendan@gmail.com" and the password "Leasera". 
-8. Information should display below.
-9. Select the Logout button upon completion.
+6. "hellarbrendan@gmail.com" and the password "Leasera". 
+7. Information should display below.
+8. Select the Logout button upon completion.
+(If information does not show then refresh the page and start from step 6 again)
 
 # How to see Database
 1. Navigate to Firebase at "https://firebase.google.com/".
 2. Login as you normally would. 
-3. (Omitted Access Email)
+3. (Omitted Email)
+4. A picture of the Firebase Database is included in the assets folder if needed.
 
 
 

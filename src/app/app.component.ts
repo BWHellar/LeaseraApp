@@ -9,15 +9,15 @@ import { auth } from 'firebase';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  items: any[];
+  User: any[];
   email: string;
   password: string;
 
   constructor(private Auth: AngularFireAuth, data: AngularFireDatabase){
-    data.list('/items')
+    data.list('/User')
       .valueChanges()
-      .subscribe(items => {
-        this.items = items;
+      .subscribe(User => {
+        this.User = User;
       });
   }
 

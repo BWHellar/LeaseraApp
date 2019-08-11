@@ -1,16 +1,16 @@
 <div id="container">
   <div>
     <form action="index.html" class="mainForm">
-      <label class="login">Login</label><br>
+      <label class="login" name="Login">Login</label><br>
       <input type="text" name="email" id="" placeholder="Email" [(ngModel)]="email">
       <input type="text" name="password" id="" placeholder="Password" [(ngModel)]="password"><br>
       <button (click)="signIn()">Submit</button>
-      
+
       <div id="info">
         <div *ngIf="Auth.authState | async as user; else login" >
             <h1>Information</h1>
-            <p id="items" *ngFor="let item of items" >
-              {{ item }}
+            <p id="user" *ngFor="let user of User" >
+              {{ user }}
             </p>
           <button (click)="logout()">Logout</button>
         </div>
