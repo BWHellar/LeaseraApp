@@ -1,4 +1,4 @@
-#How to Run
+# How to Run
 1. Clone from this repo https://github.com/BWHellar/LeaseraApp.
     If
     Sent file through Zip then unzip file and follow on to following steps.
@@ -6,11 +6,12 @@
 3. Run "npm install" on the command line once in the folder.
 4. Run "ng serve" to start the localhost.
 5. In your web browser go to "localhost:4200".
+<<<<<<< HEAD
 6. Login using the email provided "hellarbrendan@gmail.com" and the password "Leasera".
 7. Information should display below.
 8. Select the Logout button upon completion.
 
-#How to see Database
+# How to see Database
 1. Navigate to Firebase at "https://firebase.google.com/".
 2. Login as you normally would. 
 3. (Omitted email)
