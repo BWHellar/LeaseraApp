@@ -67,9 +67,11 @@ body {
   .mainForm input[type="submit"]:hover {
     background: #2ecc71;
   }
-
-  li {
-      list-style-type: none;
-      text-align: center;
-
+  #info {
+    display: none;
+  }
+  #items {
+    font-size: 1.5em;
+    color: rgb(28, 116, 40);
+    text-shadow: 1px 2px 1px #474747;
   }

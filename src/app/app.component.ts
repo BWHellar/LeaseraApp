@@ -18,7 +18,6 @@ export class AppComponent implements OnInit {
       .valueChanges()
       .subscribe(items => {
         this.items = items;
-        console.log(items)
       });
   }
 
