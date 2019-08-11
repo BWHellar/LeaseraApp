@@ -6,15 +6,16 @@
 3. Run "npm install" on the command line once in the folder.
 4. Run "ng serve" to start the localhost.
 5. In your web browser go to "localhost:4200".
-<<<<<<< HEAD
-6. Login using the email provided "hellarbrendan@gmail.com" and the password "Leasera".
-7. Information should display below.
-8. Select the Logout button upon completion.
+6. Refresh the localhost once it is loaded. (To prevent any minor sync issues)
+7. "hellarbrendan@gmail.com" and the password "Leasera". 
+8. Information should display below.
+9. Select the Logout button upon completion.
 
 # How to see Database
 1. Navigate to Firebase at "https://firebase.google.com/".
 2. Login as you normally would. 
-3. (Omitted email)
+3. (Omitted Access Email)
+
 
 
 # LeaseraApp

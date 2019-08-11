@@ -21,17 +21,16 @@ export class AppComponent implements OnInit {
       });
   }
 
-
   ngOnInit() {
     this.Auth.authState
-      .subscribe((user) => console.log(user));
+      .subscribe((user) => (user));
   }
 
   signIn(){
     document.getElementById('info').style.display = "block";
-    this.Auth.auth.signInWithEmailAndPassword(this.email, this.password)
-      .then((userCred) => console.log(userCred));
+    this.Auth.auth.signInWithEmailAndPassword(this.email, this.password);
   }
+  
   logout() {
     this.Auth.auth.signOut();
   }

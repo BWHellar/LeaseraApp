@@ -9,7 +9,6 @@ export const environment = {
     authDomain: 'leaseraapp.firebaseapp.com',
     databaseURL: 'https://leaseraapp.firebaseio.com',
     projectId: 'leaseraapp',
-    storageBucket: '',
     messagingSenderId: '102817246519',
     appId:'1:102817246519:web:6cd13fb4a100f3af'
   }
