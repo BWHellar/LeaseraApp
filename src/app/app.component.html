@@ -7,9 +7,9 @@
       <input type="text" name="password" id="" placeholder="Password" [(ngModel)]="password">
       <br>
       <button (click)="signIn()">Submit</button>
-      <div *ngIf="Auth.authState | async as user; else login">
+      <div id="info" *ngIf="Auth.authState | async as user; else login" style="display:none">
         <h1>Information</h1>
-          <p *ngFor="let item of items">
+          <p *ngFor="let item of items" >
             {{ item }}
           </p>
           <button (click)="logout()">Logout</button>

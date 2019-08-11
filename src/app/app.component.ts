@@ -29,6 +29,7 @@ export class AppComponent implements OnInit {
   }
 
   signIn(){
+    document.getElementById('info').style.display = "block";
     this.Auth.auth.signInWithEmailAndPassword(this.email, this.password)
       .then((userCred) => console.log(userCred));
   }
