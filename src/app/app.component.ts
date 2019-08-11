@@ -13,7 +13,7 @@ export class AppComponent implements OnInit {
   email: string;
   password: string;
 
-  constructor(private Auth: AngularFireAuth, data: AngularFireDatabase){
+  constructor(private Auth: AngularFireAuth, data: AngularFireDatabase) {
     data.list('/User')
       .valueChanges()
       .subscribe(User => {
@@ -26,11 +26,10 @@ export class AppComponent implements OnInit {
       .subscribe((user) => (user));
   }
 
-  signIn(){
-    document.getElementById('info').style.display = "block";
+  signIn() {
+    document.getElementById('info').style.display = 'block';
     this.Auth.auth.signInWithEmailAndPassword(this.email, this.password);
   }
-  
   logout() {
     this.Auth.auth.signOut();
   }

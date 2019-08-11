@@ -10,7 +10,7 @@ export const environment = {
     databaseURL: 'https://leaseraapp.firebaseio.com',
     projectId: 'leaseraapp',
     messagingSenderId: '102817246519',
-    appId:'1:102817246519:web:6cd13fb4a100f3af'
+    appId: '1:102817246519:web:6cd13fb4a100f3af'
   }
 };
 
